@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <it.sephiroth.android.library.imagezoom.ImageViewTouch android:layout_height="0dp" android:layout_width="match_parent" android:scaleType="fitCenter" android:id="@+id/image" android:layout_weight="1"/>
+
+</LinearLayout>
