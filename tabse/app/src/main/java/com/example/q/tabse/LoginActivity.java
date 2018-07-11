@@ -22,7 +22,6 @@ import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.microsoft.windowsazure.mobileservices.table.DateTimeOffset;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
@@ -30,7 +29,6 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class LoginActivity extends Activity {
 
