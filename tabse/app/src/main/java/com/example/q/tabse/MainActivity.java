@@ -35,7 +35,7 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
     static String user_id;
     AccessToken user;
-    private Fragment[] arrFragments = new Fragment[3];
+    private Fragment[] arrFragments = new Fragment[4];
     private int LOGIN_REQUEST = 1000;
     StringBuffer response2 = new StringBuffer();
     StringBuffer response = new StringBuffer();
@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
         arrFragments[0] = new First();
         arrFragments[1] = new Second();
         arrFragments[2] = new Third();
+        arrFragments[3] = new Fourth();
 
         MyPagerAdapter adapter = new MyPagerAdapter(getSupportFragmentManager(), arrFragments);
         viewPager.setAdapter(adapter);
@@ -202,7 +203,7 @@ public class MainActivity extends AppCompatActivity {
                 case 2:
                     return "프로필";
                 default:
-                    return "";
+                    return "카톡";
             }
             //return super.getPageTitle(position);
         }

@@ -16,6 +16,7 @@
 
     <application
         android:allowBackup="true"
+        android:name="com.example.q.tabse.GlobalApplication"
         android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
         android:label="하이요"
@@ -46,6 +47,10 @@
             android:name=".LoginActivity"
             android:label="하이요">
         </activity>
+        <activity android:name=".SubActivity"></activity>
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="@string/kakao_app_key" />
 
         <meta-data android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id"/>

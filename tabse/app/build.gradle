@@ -41,4 +41,5 @@ dependencies {
     implementation 'it.sephiroth.android.library.imagezoom:imagezoom:+'
     implementation 'com.android.support:multidex:1.0.3'
     implementation 'com.facebook.android:facebook-android-sdk:4.34.0'
+    implementation group: project.KAKAO_SDK_GROUP, name: 'usermgmt', version: project.KAKAO_SDK_VERSION
 }
